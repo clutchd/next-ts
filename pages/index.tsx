@@ -1,23 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 
-/**
- * container      = min-h-screen px-2 flex flex-col justify-center items-center
- * main           = py-20 flex-1 flex flex-col justify-center items-center
- * footer         = w-full h-24 border-t border-solid border-gray-200 flex justify-center items-center
- * footer img     = ml-2
- * footer a       = flex justify-center items-center
- * title a        = text-blue-500 no-underline hover:underline focus:underline active:underline
- * title          = m-0 text-6xl text-center
- * description    = text-center text-2xl
- * code           = bg-gray-100 rounded p-3 text-lg font-mono
- * grid           = flex items-center justify-center flex-wrap max-w-3xl mt-12 w-full flex-col
- * card           = m-4 flex-auto w-4/5 sm:w-2/5 p-6 text-left no-underline border border-solid border-gray-200 rounded-lg transition ease-linear hover:text-blue-500 focus:text-blue-500 active:text-blue-500 hover:border-blue-500 focus:border-blue-500 active:border-blue-500
- * card h3        = mb-4 text-2xl
- * card p         = m-0 text-xl
- * logo           = h-4
- */
-
 export default function Home() {
   return (
     <div className="min-h-screen px-2 flex flex-col justify-center items-center">
@@ -93,7 +76,7 @@ export default function Home() {
 
       <footer className="w-full h-24 border-t border-solid border-gray-200 flex justify-center items-center">
         <a
-          href="https://vercel.com?utm_source=typescript-nextjs-starter"
+          href="https://vercel.com"
           target="_blank"
           rel="noopener noreferrer"
           className="flex justify-center items-center"
