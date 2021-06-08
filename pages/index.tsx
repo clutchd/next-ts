@@ -63,7 +63,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=typescript-nextjs-starter"
+            href="https://vercel.com/new"
             className="m-4 flex-auto w-4/5 sm:w-2/5 p-6 text-left no-underline border border-solid border-gray-200 rounded-lg transition ease-linear hover:text-blue-500 focus:text-blue-500 active:text-blue-500 hover:border-blue-500 focus:border-blue-500 active:border-blue-500"
           >
             <h3 className="mb-4 text-2xl font-bold">Deploy &rarr;</h3>
